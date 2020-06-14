@@ -5,4 +5,5 @@ export { asWord, asUWord, asHalf, asUHalf, asByte, asUByte } from './helpers';
 export { signExtend, signExtendByte, signExtendHalf } from './helpers';
 export { cleanEscapes } from './helpers';
 export { getRegisterNumber } from './helpers';
+export { isWordAlign, wordAlign } from './helpers';
 export { between, validByte, validHalf, validWord } from './helpers';
