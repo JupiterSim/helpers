@@ -22,5 +22,14 @@
     /** Advance Options */
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
+  },
+  "typedocOptions": {
+    "inputFiles": ["./src"],
+    "mode": "modules",
+    "out": "docs",
+    "name": "Jupiter Simulator Helpers",
+    "includeVersion": true,
+    "excludeNotExported": true,
+    "exclude": ["node_modules/**/*.ts"]
   }
 }
