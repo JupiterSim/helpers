@@ -1,4 +1,4 @@
-export { default as constants } from './constants';
+export { constants } from './constants';
 export { atof, atoi } from './helpers';
 export { floatToBits, bitsToFloat } from './helpers';
 export { asWord, asUWord, asHalf, asUHalf, asByte, asUByte } from './helpers';

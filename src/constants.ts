@@ -1,4 +1,7 @@
-export default {
+/**
+ * Jupiter useful constants.
+ */
+export const constants = {
   /** Stack pointer memory address */
   STACK_POINTER: 0xbffffff0,
   /** Global pointer memory address */

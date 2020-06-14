@@ -1,4 +1,4 @@
-import constants from './constants';
+import { constants } from './constants';
 
 /**
  * Checks if a number is in range [a, b] (inclusively).
