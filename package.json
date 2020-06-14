@@ -25,7 +25,7 @@
     "test": "mocha -r ts-node/register test/**/*.ts",
     "coverage": "nyc mocha -r ts-node/register test/**/*.ts",
     "build": "del dist && eslint --fix --ext '.ts' src && tsc",
-    "prepublish": "cpy package.json dist && cpy LICENSE dist && cpy README.md dist"
+    "copy": "cpy package.json dist && cpy LICENSE dist && cpy README.md dist"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
