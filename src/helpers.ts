@@ -80,7 +80,7 @@ export function signExtend(n: number, bits: number): number {
 /**
  * Sign-extends a byte value.
  *
- * @param n - Byte to sign-extend
+ * @param n - Byte to sign-extend.
  * @returns The sign-extended value of the given byte.
  */
 export function signExtendByte(n: number): number {
@@ -90,7 +90,7 @@ export function signExtendByte(n: number): number {
 /**
  * Sign-extends a half value.
  *
- * @param n - Half to sign-extend
+ * @param n - Half to sign-extend.
  * @returns The sign-extended value of the given half.
  */
 export function signExtendHalf(n: number): number {
