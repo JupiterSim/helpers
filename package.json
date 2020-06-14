@@ -1,7 +1,7 @@
 {
   "name": "@jupitersim/helpers",
   "description": "Jupiter RISC-V Simulator Helpers",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Andrés Castellanos <andres.cv@galileo.edu>",
   "license": "Apache-2.0",
   "homepage": "https://github.com/JupiterSim/helpers",
